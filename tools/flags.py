@@ -40,3 +40,8 @@ country_dict = {
 def get_flag(country):
     """Return the flag of the given country"""
     return country_dict[country.lower()] if country.lower() in country_dict else 'Country not found'
+
+
+def get_flag_dict():
+    """Return the dict of all flags"""
+    return country_dict
